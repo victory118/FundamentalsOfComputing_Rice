@@ -19,7 +19,13 @@
 
 ### P4
 
+#### First attempt
+
 Names for everyone taking this course, Group of distinct cities
+
+#### Second attempt
+
+Group of distinct cities
 
 ### P5
 
