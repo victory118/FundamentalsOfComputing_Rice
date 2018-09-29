@@ -27,11 +27,14 @@ def merge(line):
     merged_list.extend([0 for num in range(0,len(line)-len(merged_list))])
     return merged_list
 
-print(merge([2, 0, 2, 4]))
-print(merge([0, 0, 2, 2]))
-print(merge([2, 2, 0, 0]))
-print(merge([2, 2, 2, 2, 2]))
-print(merge([8, 16, 16, 8]))
+import poc_merge2048_mp1_testsuite
+poc_merge2048_mp1_testsuite.run_suite(merge)
+
+# print(merge([2, 0, 2, 4]))
+# print(merge([0, 0, 2, 2]))
+# print(merge([2, 2, 0, 0]))
+# print(merge([2, 2, 2, 2, 2]))
+# print(merge([8, 16, 16, 8]))
 
 # Tests:
 # [2, 0, 2, 4] should return [4, 4, 0, 0]

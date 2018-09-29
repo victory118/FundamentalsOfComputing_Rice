@@ -3,7 +3,7 @@ Clone of 2048 game.
 """
 
 # codeskultor link
-# http://www.codeskulptor.org/#user45_So567X9tQXE75Dj.py
+# http://www.codeskulptor.org/#user45_TwSZ5m25iV_4.py
 
 # templates
 # http://www.codeskulptor.org/#poc_2048_template.py
@@ -183,3 +183,6 @@ for i in range(num_turns):
    print turn
    game.move(turn)
    print str(game)
+
+import poc_merge2048_mp2_testsuite
+poc_merge2048_mp2_testsuite.run_suite(TwentyFortyEight)
