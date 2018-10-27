@@ -27,8 +27,8 @@ def remove_duplicates(list1):
     if list1 == []:
         return list1
     
-    new_list = [list1[0]];
-    prev_elem = list1[0];
+    new_list = [list1[0]]
+    prev_elem = list1[0]
     
     for elem in list1:
         if elem != prev_elem:
