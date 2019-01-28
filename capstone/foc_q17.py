@@ -40,7 +40,9 @@ def pick_a_number(board):
 
 print pick_a_number([3, 5, 2, 1])
 print pick_a_number([1, 2, 5, 3])
+# arr = [12, 9, 7, 3, 4, 7, 4, 3, 16, 4, 8, 12, 1, 2, 7, 11, 6, 3, 9, 7, 1]
 arr = [12, 9, 7, 3, 4, 7, 4, 7, 3, 16, 4, 8, 12, 1, 2, 7, 11, 6, 3, 9, 7, 1]
+pick_a_number(arr)
 print pick_a_number(arr)
 print pick_a_number(list(reversed(arr)))
-print sum([12, 9, 7, 3, 4, 7, 4, 7, 3, 16, 4, 8, 12, 1, 2, 7, 11, 6, 3, 9, 7, 1])
+print(sum(arr))
